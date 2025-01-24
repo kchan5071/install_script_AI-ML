@@ -9,6 +9,5 @@ psutil
 scikit-learn
 scipy
 sympy
-tensorflow
 keras
 torch
