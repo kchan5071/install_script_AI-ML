@@ -8,6 +8,7 @@ sudo apt-get install -y python3 python3-pip python3-venv
 sudo snap install aws-cli --classic
 
 #install webserver stuff
+sudo apt install -y nodejs
 sudo apt install -y mariadb-server
 sudo apt install -y mysql-server
 sudo apt install -y apache2
