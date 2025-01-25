@@ -12,7 +12,13 @@ sympy
 keras
 torch
 
+matplotlib
+
 boto3
 python-dotenv
 
 websockets
+socketio
+
+yfinance
+yahoofinancials

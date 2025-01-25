@@ -13,6 +13,7 @@ sudo apt install -y mariadb-server
 sudo apt install -y mysql-server
 sudo apt install -y apache2
 sudo apt install -y php php-fpm
+sudo apt install -y htop
 
 mkdir -p AI-sandbox
 mv requirements.txt AI-sandbox
@@ -27,6 +28,9 @@ source AI-sandbox-env/bin/activate
 # use pip3 to install the required packages
 pip3 install -r requirements.txt
 
+#use npm to install the required packages
+npm install ws
+
 # set alias' for activating and deactivating the virtual environment
-alias act="source install_script_AI-ML/AI-sandbox/AI-sandbox-env/bin/activate"
+alias act="source ~/install_script_AI-ML/AI-sandbox/AI-sandbox-env/bin/activate"
 alias deact="deactivate"
