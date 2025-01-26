@@ -71,8 +71,8 @@ echo "npm install ws\n" >> /var/log/startup/log.txt
 npm install ws
 
 # set alias' for activating and deactivating the virtual environment
-echo "alias act="source /home/ubuntu/install_script_AI-ML/AI-sandbox/AI-sandbox-env/bin/activate"" >> /home/ubuntu/.bashrc
-echo "alias deact="deactivate"" >> /home/ubuntu/.bashrc
+echo "alias act='source /home/ubuntu/install_script_AI-ML/AI-sandbox/AI-sandbox-env/bin/activate'" >> /home/ubuntu/.bashrc
+echo "alias deact='deactivate'" >> /home/ubuntu/.bashrc
 
 echo "grabbing openai key\n" >> /var/log/startup/log.txt
 
