@@ -19,3 +19,4 @@ yahoofinancials
 sagemaker
 ipywidgets
 openai
+tensorflow
