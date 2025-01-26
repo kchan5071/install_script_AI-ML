@@ -2,7 +2,7 @@
 
 mkdir /var/log/startup
 echo "startup started\n" >> /var/log/startup/log.txt
-cd ~
+cd /home/ubuntu
 git clone https://github.com/kchan5071/install_script_AI-ML.git
 echo "initial clone complete\n" >> /var/log/startup/log.txt
 cd install_script_AI-ML
