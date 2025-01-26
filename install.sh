@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# git clone website
+git clone https://github.com/kchan5071/lpl-hackathon-website.git
+
 # Install the required packages
 sudo apt-get update
 #install python
@@ -34,3 +37,5 @@ npm install ws
 # set alias' for activating and deactivating the virtual environment
 alias act="source ~/install_script_AI-ML/AI-sandbox/AI-sandbox-env/bin/activate"
 alias deact="deactivate"
+
+aws s3 cp s3://stock-dataset-lpl1/openai_key.txt ~/.
