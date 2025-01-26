@@ -81,3 +81,13 @@ echo "alias deact='deactivate'" >> /home/ubuntu/.bashrc
 echo "grabbing openai key\n" >> /var/log/startup/log.txt
 
 aws s3 cp s3://stock-dataset-lpl1/openai_key.txt /home/ubuntu/.
+
+#start ml server
+cd /install_script_AI-ML/lpl-hackathon-website/startup-nextjs-main/src/components/websockets/python/
+python3 anotherserver.py &
+
+#start webserver
+cd /install_script_AI-ML/lpl-hackathon-website/startup-nextjs-main
+sudo npm run dev &
+
+
