@@ -47,6 +47,10 @@ sudo apt install -y htop
 
 echo "htop\n" >> /var/log/startup/log.txt
 
+sudo apt install npm
+
+echo "npm\n" >> /var/log/startup/log.txt
+
 mkdir -p AI-sandbox
 mv requirements.txt AI-sandbox
 cd AI-sandbox
