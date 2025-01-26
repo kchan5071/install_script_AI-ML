@@ -38,4 +38,4 @@ npm install ws
 alias act="source ~/install_script_AI-ML/AI-sandbox/AI-sandbox-env/bin/activate"
 alias deact="deactivate"
 
-aws s3 cp s3://stock-dataset-lpl1/openai_key.txt ~/.
+aws s3 cp s3://stock-dataset-lpl1/openai_key.txt /home/ubuntu/.
